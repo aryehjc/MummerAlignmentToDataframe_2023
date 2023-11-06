@@ -177,9 +177,3 @@ python3 /home/aryeh/MummerToDataframe.py > output.txt
 tr -d \' < output.txt > DataArray.txt
 sed -i -e 's/]/],/g' DataArray.txt
 ```
-Below, an example use case of the script is shown.
-
-https://www.youtube.com/watch?v=C7w3xbHZIpg 
-
-Note the beginning element in the list output below, e.g. [1, 62962] that is produced in DataArray.txt. Then scroll to the bottom of the output in each DataArray file as indicated, e.g. [2973, 65868]
-and highlight values from the ending list element [2973, 65868] to where the beginning list item [1, 62962] first appears. Then copy paste into a Jupyter Notebook, e.g. from gregornickel's pcp package.
