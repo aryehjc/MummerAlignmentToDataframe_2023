@@ -169,7 +169,7 @@ for graphing in Matplotlib. Multiple lines shared between 2 points = how many al
 
 Sequences can be highlighted in the list format and pasted into a Jupyter Notebook for easy plotting of data coordinates for graphing. 
 
-Wrap the script in a Bash script to remove quotation '' marks and allow pasting coordinates into graphs.
+Wrap the script in a Bash script to remove quotation '' marks and allow pasting coordinates into Jupyter notebook cells to produce graphs.
 
 ```
 #!/bin/bash
